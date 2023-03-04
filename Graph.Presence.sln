@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "@Common", "@Common\@Common.csproj", "{C38BCC3E-1D01-4258-B1C5-7C0A950694E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeAssistant.LightController", "HomeAssistant.LightController\HomeAssistant.LightController.csproj", "{A4D2A2AB-214D-46A9-AE83-7006F7C55CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrayIcon", "TrayIcon\TrayIcon.csproj", "{5B1DDF60-DD32-4EB2-A979-05ACC0E28DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C38BCC3E-1D01-4258-B1C5-7C0A950694E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38BCC3E-1D01-4258-B1C5-7C0A950694E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38BCC3E-1D01-4258-B1C5-7C0A950694E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38BCC3E-1D01-4258-B1C5-7C0A950694E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4D2A2AB-214D-46A9-AE83-7006F7C55CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4D2A2AB-214D-46A9-AE83-7006F7C55CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4D2A2AB-214D-46A9-AE83-7006F7C55CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4D2A2AB-214D-46A9-AE83-7006F7C55CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1DDF60-DD32-4EB2-A979-05ACC0E28DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1DDF60-DD32-4EB2-A979-05ACC0E28DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1DDF60-DD32-4EB2-A979-05ACC0E28DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1DDF60-DD32-4EB2-A979-05ACC0E28DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {783BEC3E-DF0C-44A4-A4B2-3A0D0BEE349E}
+	EndGlobalSection
+EndGlobal
