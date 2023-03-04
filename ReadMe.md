@@ -8,6 +8,7 @@ You know that moment where you're in an important teams meeting and suddenly som
 Using Microsoft Graph and Home Assistant they could!
 
 See it in action here
+
 [![Teams presence to Home Assistant](https://img.youtube.com/vi/v89xS8rHM74/0.jpg)](https://www.youtube.com/watch?v=v89xS8rHM74)
 
 ---
@@ -41,7 +42,7 @@ That means the "overview" of the solution looks something like this
 ``` mermaid
 graph TD;
     G[Microsoft Graph] <-->|GET - /me/presence\nevery second| T[Presence-2-Ha];
-    T --> |The PresenceWatcher fires is there's a change| H["Home Assistant"]
+    T --> |The PresenceWatcher fires if there's a change| H["Home Assistant"]
 ```
 
 Initially I set it up as a console job, but found I kept on closing it accidentally, so I decided on a tray icon ... I had never built any apps that run in the notification tray, but it was relatively easy, with the only problem being the tray part makes the app Windows only - should be somewhat convertible to any other platform with a bit of tinkering.
